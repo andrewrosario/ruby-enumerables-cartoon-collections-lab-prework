@@ -8,7 +8,7 @@ def summon_captain_planet(array)
   array.collect{ |obj| puts "#{obj.capitalize}!"
 end
 
-summon_captain_planet(array)
+summon_captain_planet(["earth", "wind", "fire", "water", "heart"])
 
 def long_planeteer_calls# code an argument here
   # Your code here
