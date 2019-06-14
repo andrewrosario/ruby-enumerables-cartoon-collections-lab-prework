@@ -18,7 +18,8 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  p array.find_index{ |obj| cheese_types.include?(obj)}
+  p array[array.find_index{ |obj| cheese_types.include?(obj)}]
+  
 end
 
 find_the_cheese(["crackers", "gouda", "thyme"])
