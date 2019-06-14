@@ -18,8 +18,9 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  p array[array.find_index{ |obj| cheese_types.include?(obj)}]
-  
+  value = array.find_index{ |obj| cheese_types.include?(obj)}
+  return value if value == nil 
+  return
 end
 
 find_the_cheese(["crackers", "thyme"])
