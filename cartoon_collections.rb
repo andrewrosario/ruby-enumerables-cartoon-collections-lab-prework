@@ -6,7 +6,7 @@ roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
 
 def summon_captain_planet(array)
   planet []
-  array.collect{ |obj| puts "#{obj.capitalize}!"}
+  array.collect{ |obj| planet << "#{obj.capitalize}!"}
 end
 
 summon_captain_planet(["earth", "wind", "fire", "water", "heart"])
